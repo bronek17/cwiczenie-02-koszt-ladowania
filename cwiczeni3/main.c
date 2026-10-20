@@ -35,5 +35,14 @@ int main(void) {
         printf("\n");
     }
 
+    printf("Roznica A - B:\n");
+    for (i = 0 ; i < wA; i++) {
+        for (j = 0; j < kA; j++) {
+            C[i][j] = A[i][j] - B[i][j];
+            printf("%8.2f", C[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
