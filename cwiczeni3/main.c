@@ -18,6 +18,14 @@ int main(void) {
         return 1;
     }
 
+    int i, j;
+    for (i = 0; i < wA; i++) {
+        for (j = 0; j < kA; j++) {
+          printf("%8.2f", A[i][j]);
+        }
+        printf("\n");
+    }
+
     printf("Suma A + B:\n");
     for (i = 0 ; i < wA; i++) {
         for (j = 0; j < kA; j++) {
